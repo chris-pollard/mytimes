@@ -1,7 +1,5 @@
 body {
-  margin-left: 0px;
-  margin-right:0px;
-  justify-content: center;
+  margin: 0;
 }
 header {
   display: flex;
@@ -188,7 +186,8 @@ footer {
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
-  position: static;
+  position: relative;
+  top: 74px;
   flex-direction: column;
 }
 
